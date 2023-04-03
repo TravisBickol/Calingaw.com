@@ -1,0 +1,87 @@
+.header{
+  margin-top: -8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+}
+
+.logo {
+  height: 145px;
+  width: 160px;
+  margin-left: 30px;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.login {
+  font: Arial;
+  font-size: 34px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  height: 80px;
+  width: 220px;
+  border-radius: 60px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.3s;
+}
+
+.login:hover {
+  background-color: rgb(212, 148, 74);
+}
+
+.login:active {
+  background-color: rgb(175, 117, 50);
+}
+
+.sign-up {
+  font: Arial;
+  font-size: 34px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  height: 80px;
+  width: 220px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-up:hover {
+  background-color: rgb(212, 148, 74);
+}
+
+.sign-up:active {
+  background-color: rgb(175, 117, 50);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 770px;
+  width: 1914px;
+}
+
+.calingaw {
+  display: flex;
+  height: 350px;
+  width: 900px;
+  margin-top: 220px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+

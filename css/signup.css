@@ -1,0 +1,300 @@
+.content {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1300px) {
+  .content {
+    grid-template-columns: 1fr;
+    
+    
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+    
+  
+  }
+}
+
+
+.register {
+  display: block;
+  border-style: solid;
+  border-color: orange;
+  width: 750px;
+  height: 750px;
+  border-width: 3px;
+  border-radius: 25px;
+  margin-right: 50px;
+  box-shadow: 5px 5px 5px rgb(255, 153, 36);
+}
+
+.top {
+  border-bottom: solid;
+  border-color: orange;
+  border-width: 2px;
+  height: 100px;
+  max-width: 100%;
+}
+
+.p1 {
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  color: orange;
+  max-width: 100%;
+}
+
+.p2 {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 15px;
+  color: black;
+  max-width: 100%;
+}
+
+.input {
+  margin-top: -10px;
+  max-width: 100%;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.name {
+  display: inline-block;
+  width: 100%;
+}
+
+.first-name {
+  font-size: 25px;
+  padding-left: 15px;
+  width: 45%;
+  height: 50px;
+  max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.last-name {
+  font-size: 25px;
+  padding-left: 15px;
+  width: 45%;
+  height: 50px;
+  max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.email {
+  font-size: 25px;
+  padding-left: 15px;
+  height: 50px;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.password {
+  font-size: 25px;
+  padding-left: 15px;
+  height: 50px;
+  width: 90%;
+  max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.birthdayAndGender{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+  /* border-style: solid;
+  border-width: 1px; */
+}
+
+.bday-textAndSelect {
+  display: inline-block;
+  /* border-width: 1px;
+  border-style: solid; */
+  width: 30%;
+}
+
+.birthday {
+  font-size: 20px;
+  color: gray;
+}
+
+.dob {
+  font-size: 25px;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.gender {
+  /* border-width: 1px;
+  border-style: solid; */
+  width: 40%;
+}
+
+.gender-text {
+  font-size: 20px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.gender-select {
+  border-width: 1px;
+  border-style: solid;
+  width: 60%;
+}
+
+.gender-male {
+  font-size: 25px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  padding: 1px;
+  margin-right: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.gender-female {
+  font-size: 25px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  padding: 1px;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+button[type="submit"] {
+  font-size: 30px;
+  height: 60px;
+  max-width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: orange;
+  box-shadow: 0px 2px 5px rgb(22, 22, 22);
+  cursor: pointer;
+}
+
+
+.terms-container{
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+  margin-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.terms {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+strong {
+  color: orange;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+input.log::placeholder {
+  color: white;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+  color: transparent;
+}
+
+.border {
+  margin-top: 5px;
+  max-width: 100%;
+}
+
+.google-icon {
+  float: left;
+  width: 40px;
+  max-width: 100%;
+}
+
+.new-account-btn{
+  display: inline-block;
+  font-size: 30px;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  background-color: orange;
+  box-shadow: 0px 2px 5px rgb(22, 22, 22);
+  cursor: pointer;
+}
+
+.google-login-btn {
+  display: inline-block;
+  font-size: 30px;
+  height: 60px;
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: rgb(212, 115, 115);
+  box-shadow: 0px 2px 5px rgb(22, 22, 22);
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+}
+
+
+
+
